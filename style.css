@@ -3,11 +3,15 @@ root{
     --cinza-secundario: #c0c0c0;
     --botao-azul: #167bf7;
     --cor-de-fundo: #00030c;
+    --fonte-principal: 'Inter';
     }
     
     body {
     background-color: var(--cor-de-fundo);
     color: var(--branco-principal);
+    font-family: var(--fonte-principal);
+    font-size: 16px;
+    font-weight: 400;
     }
     
 .principal{
@@ -17,6 +21,8 @@ root{
     height: 100vh;
     display: grid;
     grid-template-columns: 50% 50%;
+    align-items: center;
+    text-align: center;
     }
 
 .principal-botao{
@@ -26,6 +32,7 @@ root{
    padding: 16px;
    text-decoration: none;
    display: block;
+   margin-bottom:16px ;
 }
 .principal-botao-2 {
     background-color: transparent;
@@ -34,6 +41,27 @@ root{
     border-radius: 5px;
     padding: 16px;
     text-decoration: none;
-display: block;
+    display: block;
+    margin-bottom:16px;
+}
+
+.principal-titulo{
+   font-size: 28px;
+   font-weight: 700;
+
+}
+
+.principal-aviso{
+   font-size:14px;
+   color: var (--cinza-secundaio);
+}
+
+.principal-imagem{
+   margin: 16px 0 32px 0;
+}
+
+.principal-caixa{
+   margin: 0 96px;
+
 }
     
